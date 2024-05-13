@@ -1,0 +1,120 @@
+{
+    "os": "Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-05-03T02:34:00.752582",
+    "startedAt": "2024-05-03T02:34:00.107715",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--node-ip-address=172.25.146.148",
+        "--node-manager-port=41687",
+        "--object-store-name=/tmp/ray/session_2024-05-03_11-33-52_268252_5177/sockets/plasma_store",
+        "--raylet-name=/tmp/ray/session_2024-05-03_11-33-52_268252_5177/sockets/raylet",
+        "--redis-address=None",
+        "--temp-dir=/tmp/ray",
+        "--metrics-agent-port=59216",
+        "--runtime-env-agent-port=45606",
+        "--logging-rotate-bytes=536870912",
+        "--logging-rotate-backup-count=5",
+        "--runtime-env-agent-port=45606",
+        "--gcs-address=172.25.146.148:41076",
+        "--session-name=session_2024-05-03_11-33-52_268252_5177",
+        "--temp-dir=/tmp/ray",
+        "--webui=",
+        "--cluster-id=224f79904761b65bd787e91d363c8e0f9e1ce8aa15e10f0a079605e9",
+        "--startup-token=14",
+        "--worker-launch-time-ms=1714703637640"
+    ],
+    "state": "running",
+    "program": "/home/shawn/anaconda3/envs/torch/lib/python3.11/site-packages/ray/_private/workers/default_worker.py",
+    "codePathLocal": null,
+    "host": "dev3",
+    "username": "shawn",
+    "executable": "/home/shawn/anaconda3/envs/torch/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3600.019999999999,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3600.02,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.02,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.02,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.02,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.02,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.02,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.02,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.02,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.02,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.02,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.02,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.02,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 199.0898094177246
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1660 SUPER",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1660 SUPER",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 31.311748504638672
+    }
+}

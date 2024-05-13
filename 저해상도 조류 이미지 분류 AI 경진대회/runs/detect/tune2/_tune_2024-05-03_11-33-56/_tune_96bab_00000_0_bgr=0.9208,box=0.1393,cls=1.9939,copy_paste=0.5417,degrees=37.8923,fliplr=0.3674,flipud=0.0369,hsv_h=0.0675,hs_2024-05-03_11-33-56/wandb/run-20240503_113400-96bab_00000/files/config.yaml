@@ -1,0 +1,100 @@
+wandb_version: 1
+
+lr0:
+  desc: null
+  value: 0.031589101598865736
+lrf:
+  desc: null
+  value: 0.028844164674596377
+momentum:
+  desc: null
+  value: 0.819523849916282
+weight_decay:
+  desc: null
+  value: 0.00020621063803196883
+warmup_epochs:
+  desc: null
+  value: 1.9728696932437806
+warmup_momentum:
+  desc: null
+  value: 0.9157135371320021
+box:
+  desc: null
+  value: 0.13931458150180767
+cls:
+  desc: null
+  value: 1.993923265105843
+hsv_h:
+  desc: null
+  value: 0.06750245031863301
+hsv_s:
+  desc: null
+  value: 0.36983510096729594
+hsv_v:
+  desc: null
+  value: 0.7468395003571588
+degrees:
+  desc: null
+  value: 37.89228180845384
+translate:
+  desc: null
+  value: 0.19900713277817683
+scale:
+  desc: null
+  value: 0.8671904221371972
+shear:
+  desc: null
+  value: 2.6079172147605734
+perspective:
+  desc: null
+  value: 0.0005205396595902512
+flipud:
+  desc: null
+  value: 0.036898574279843444
+fliplr:
+  desc: null
+  value: 0.36736052858679247
+bgr:
+  desc: null
+  value: 0.9208420520005404
+mosaic:
+  desc: null
+  value: 0.869669990702922
+mixup:
+  desc: null
+  value: 0.04921599692091616
+copy_paste:
+  desc: null
+  value: 0.5417067742411378
+data:
+  desc: null
+  value: /mnt/d/dacon/open/
+_wandb:
+  desc: null
+  value:
+    python_version: 3.11.5
+    cli_version: 0.16.6
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1714703640.0
+    t:
+      1:
+      - 30
+      - 55
+      2:
+      - 30
+      - 55
+      3:
+      - 13
+      - 14
+      - 16
+      - 19
+      - 23
+      4: 3.11.5
+      5: 0.16.6
+      8:
+      - 8
+      13: linux-x86_64
+trial_log_path:
+  desc: null
+  value: /home/shawn/ray_results/_tune_2024-05-03_11-33-56/_tune_96bab_00000_0_bgr=0.9208,box=0.1393,cls=1.9939,copy_paste=0.5417,degrees=37.8923,fliplr=0.3674,flipud=0.0369,hsv_h=0.0675,hs_2024-05-03_11-33-56
